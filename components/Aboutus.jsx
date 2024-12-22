@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { motion } from "framer-motion";
 import { FaUniversity, FaChalkboardTeacher, FaUsers } from "react-icons/fa";
@@ -6,7 +6,7 @@ import { GiGraduateCap } from "react-icons/gi";
 
 const Aboutus = () => {
   return (
-    <div className="container mx-auto pt-36 pb-16  px-6">
+    <div className="container mx-auto pt-36 pb-16 px-6">
       {/* Header Section */}
       <motion.div
         className="text-center max-w-2xl mx-auto mb-10"
