@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
 import { AiFillStar } from "react-icons/ai";
 import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick-theme.css';
+import 'slick-carousel/slick-theme.css':
 
 const testimonials = [
   {
