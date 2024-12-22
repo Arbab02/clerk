@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
 import { AiFillStar } from "react-icons/ai";
 import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick-theme.css':
+import 'slick-carousel/slick/slick-theme.css';
 
 const testimonials = [
   {
@@ -16,7 +16,7 @@ const testimonials = [
   },
   {
     name: 'Haris Ali Khan',
-    role: 'Founder of CodeWithHarry,',
+    role: 'Founder of CodeWithHarry',
     feedback: 'Their solutions are top-notch! Highly recommended for web development and digital marketing.',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjN3kznrKIXYxgMR8qEXFKLUCoXYzAXpe2gYiDrNOVyQ1qg1yGHt9MKr1T3Sj069LnTZY&usqp=CAU',
   },
