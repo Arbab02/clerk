@@ -1,6 +1,5 @@
 'use client'
 
-
 import { motion } from "framer-motion";
 import { FaUniversity, FaChalkboardTeacher, FaUsers } from "react-icons/fa";
 import { GiGraduateCap } from "react-icons/gi";
@@ -32,7 +31,7 @@ const Aboutus = () => {
           <FaUniversity className="text-5xl text-blue-500 mb-4" />
           <h2 className="text-2xl font-semibold mb-2">Our Mission</h2>
           <p className="text-gray-600">
-            To nurture students' potential through an inclusive, innovative, and collaborative learning environment.
+            To nurture students&apos; potential through an inclusive, innovative, and collaborative learning environment.
           </p>
         </motion.div>
         <motion.div
