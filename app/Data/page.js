@@ -39,14 +39,14 @@ export default function Home() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (editingId) {
-      await fetch(`/api/items/${editingId}`, {
+      await fetch(`https://clerk-psi.vercel.app/api/items/${editingId}`, {
         method: 'PUT',
         body: JSON.stringify(form),
         headers: { 'Content-Type': 'application/json' },
       });
       setEditingId(null);
     } else {
-      await fetch('/api/items', {
+      await fetch('https://clerk-psi.vercel.app/api/items', {
         method: 'POST',
         body: JSON.stringify(form),
         headers: { 'Content-Type': 'application/json' },
