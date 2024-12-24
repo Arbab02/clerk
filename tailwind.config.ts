@@ -1,25 +1,20 @@
-/** @type {import('tailwindcss').Config} */
-const flowbite = require("flowbite-react/tailwind");
-module.exports = {
+import type { Config } from 'tailwindcss';
+
+const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./pages/**/*.{ts,tsx}",
-    "./public/**/*.html",
-    flowbite.content(),
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
   },
-  plugins: [
-    flowbite.plugin(),
-    // require("flowbite/plugin")
-  ],
+  plugins: [],
 };
+export default config;
