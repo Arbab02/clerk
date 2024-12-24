@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import 'flowbite/dist/flowbite.css'; */
+
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,8 +20,19 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-background-color:#cbd3cb;
+  /* background-image: url('./images/bg.png'); */
+  background-repeat: no-repeat;
+  background-size: 100rem;
+  background-color: #cbd3cb;
+font-family: serif;
+}
 
 
+/* .hero{
+  filter: drop-shadow(2px 2px 30px #ea4dea);
+} */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }
