@@ -19,7 +19,7 @@ const Navbar = () => {
               <img
                 src="./logo.png" // Update this path to your logo image
                 alt="My Logo"
-                className="h-[5rem] w-auto" // Adjust size as necessary
+                className="h-[4rem] w-auto" // Adjust size as necessary
               />
             </a>
           </div>
@@ -27,7 +27,7 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 mx-auto">
             <Link href="/" className="text-gray-700 font-medium hover:text-[green]">Home</Link>
-            <Link href="/About" className="text-gray-700 font-medium hover:text-[green]">About</Link>
+            <Link href="/about" className="text-gray-700 font-medium hover:text-[green]">About</Link>
             <Link href="/services" className="text-gray-700 font-medium hover:text-[green]">Services</Link>
             <Link href="/portfolio" className="text-gray-700 font-medium hover:text-[green]">Portfolio</Link>
             <Link href="/contact" className="text-gray-700 font-medium hover:text-[green]">Contact</Link>
